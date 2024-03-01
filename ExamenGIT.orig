@@ -1,5 +1,6 @@
 Contesta la pregunta y realiza un commit a la rama correspondiente a la pregunta (examenA o examenB).
 
+<<<<<<< HEAD
 PREGUNTA A - Explica con tus propias palabras qué es y cómo funciona git. Para ello define y explica la función de los elementos que lo forman: (commit, branch, tree, blob).
 · Git es una herramienta muy útil para los programadores en la que puedes controlar las versiones de tu código y además tiene distintas funcionalidades cómo trabajo remoto, es decir poder trabajar remotamente y con más gente, además también tiene funcionalidades cómo el detector de colapsamiento del código.
 Funcion de los elementos:
@@ -7,6 +8,7 @@ Funcion de los elementos:
 · branch-> sirve para crear una rama.
 · tree-> X.
 · blob-> X.
+=======
 PREGUNTA B - Explica los cuatro "lugares" donde pueden encontrarse los archivos que forman parte de un repositorio GIT. Nombra el comando para mover un archivo de un espacio a otro con la siguiente sintaxys: [LugarInicial - LugarFinal => comando]
 Los cuatro lugares en los que se encuentran los archivos que forman parte del repositorio GIT son:
 · Directorio de trabajo: Este es el directorio en el sistema de archivos donde estás trabajando.
@@ -18,3 +20,4 @@ Coando para mover un archivo a otro espacio:
 · Área de Preparación - Directorio de trabajo => git restore --staged <nombre archivo>
 · Área de Preparación - Repositorio local => git commit -m "Mensaje commit"
 · Repositorio local - Repositorio remoto => git push origin <nombre rama>
+>>>>>>> examenB
