@@ -1,3 +1,13 @@
 Contesta la pregunta y realiza un commit a la rama correspondiente a la pregunta (examenA o examenB).
 
 PREGUNTA B - Explica los cuatro "lugares" donde pueden encontrarse los archivos que forman parte de un repositorio GIT. Nombra el comando para mover un archivo de un espacio a otro con la siguiente sintaxys: [LugarInicial - LugarFinal => comando]
+Los cuatro lugares en los que se encuentran los archivos que forman parte del repositorio GIT son:
+· Directorio de trabajo: Este es el directorio en el sistema de archivos donde estás trabajando.
+· Área de preparación: Es un área intermedia donde se colocan los archivos modificados que están listos para ser confirmados en el repositorio.
+· Repositorio local: Directorio .git en tu proyecto que tiene todos los datos y el historial de tu proyecto.
+· Repositorio remoto: Repositorio alojado en un servidor remoto, como GitHub.
+Coando para mover un archivo a otro espacio:
+· Directorio de trabajo - Área de Preparación => git add <nombre archivo>
+· Área de Preparación - Directorio de trabajo => git restore --staged <nombre archivo>
+· Área de Preparación - Repositorio local => git commit -m "Mensaje commit"
+· Repositorio local - Repositorio remoto => git push origin <nombre rama>
